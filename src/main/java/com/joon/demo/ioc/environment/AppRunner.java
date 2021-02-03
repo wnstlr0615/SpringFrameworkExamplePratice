@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Arrays;
 
-@Component
+//@Component
 @PropertySource("classpath:app.properties")
 public class AppRunner implements ApplicationRunner {
     @Autowired
